@@ -14,7 +14,7 @@ function App() {
             <h1>61 °F</h1>
           </div>
           <div className='description'>
-            <p>Cloudy, indoor fun!</p>
+            <p>Cloudy, outdoor fun sounds good but prepare for some indoor fun!</p>
           </div>
         </div>
         <div className='bottom'>
@@ -23,6 +23,9 @@ function App() {
           </div>
           <div className='humidity'>
             <p>57%</p>
+          </div>
+          <div className='wind'>
+            <p>14 mph</p>
           </div>
 
         </div>
