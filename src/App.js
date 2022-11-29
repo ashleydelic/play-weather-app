@@ -11,13 +11,19 @@ function App() {
             <p>Lexington, KY</p>
           </div>
           <div className='temp'>
-            <h1>65 °F</h1>
+            <h1>61 °F</h1>
           </div>
           <div className='description'>
-            
+            <p>Cloudy, indoor fun!</p>
           </div>
         </div>
         <div className='bottom'>
+          <div className='feels'>
+            <p>59 °F</p>
+          </div>
+          <div className='humidity'>
+            <p>57%</p>
+          </div>
 
         </div>
       </div>
