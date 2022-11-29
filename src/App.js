@@ -2,7 +2,12 @@ import React, {useState} from 'react';
 import axios from 'axios';
 
 function App() {
-  // const url='https://api.openweathermap.org/data/2.5/weather?q=lexington,ky,usa&appid=5bc10b7aed41cf1f5c7aa583cd837f33';
+
+  const [data, setData] = useState({});
+  const [location, setLocation] = useState('')
+  
+  const url='https://api.openweathermap.org/data/2.5/weather?q=dallas&appid=5bc10b7aed41cf1f5c7aa583cd837f33';
+
   return (
     <div className="app">
       <div className='container'>
