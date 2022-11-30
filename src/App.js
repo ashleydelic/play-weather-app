@@ -7,7 +7,7 @@ import axios from 'axios';
 function App() {
 
   const apiKey = '9384c66feb1bae1fbcdcb63411c94cf7';
-  const [weatherData, setWeatherData] = useState;
+  const [weatherData, setWeatherData] = useState([{}]);
   
   const url = 'https://api.openweathermap.org/data/2.5/weather?q=${}&appid=5bc10b7aed41cf1f5c7aa583cd837f33';
 
