@@ -8,8 +8,18 @@ function App() {
 
   const apiKey = '9384c66feb1bae1fbcdcb63411c94cf7';
   const [weatherData, setWeatherData] = useState([{}]);
+  const [city, setCity] = useState("");
+
+  const getWeather = (event) => {
+    if (event.key === "Enter") {
+      fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&APPID=${apiKey}`).then(
+        response => response.json
+      )
+
+    }
+  }
   
-  const url = 'https://api.openweathermap.org/data/2.5/weather?q=${}&appid=5bc10b7aed41cf1f5c7aa583cd837f33';
+ 
 
  
 
