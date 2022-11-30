@@ -44,7 +44,9 @@ function App() {
             </div>
           ): (
           <div>
-            <p></p>
+            <p>{weatherData.name}</p>
+            <p>{Math.round(weatherData.main.temp)}°F</p>
+            <p>{weatherData.weather.main}</p>
             </div>
         )
         }
@@ -54,9 +56,7 @@ function App() {
           <div className='location'>
             <p>Lexington</p>
           </div>
-          <div className='temp'>
-            <h1>61°F</h1>
-          </div>
+          
           <div className='description'>
             <p>Cloudy ☁️, outdoor fun and possibly indoor fun!</p>
           </div>
