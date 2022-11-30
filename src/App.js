@@ -36,7 +36,18 @@ function App() {
         onChange={e => setCity(e.target.value)}
         value={city}
         onKeyPress={getWeather}
-        type="text"/>
+        />
+
+        {typeof weatherData.main === 'undefined' ? (
+            <div>
+              <p>Welcome to the playtime weather app! Enter your city to see the weather.</p>
+            </div>
+          ): (
+          <div>
+            <p></p>
+            </div>
+        )
+        }
       </div>
       <div className='container'>
         <div className='top'>
