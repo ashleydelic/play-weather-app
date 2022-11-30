@@ -68,7 +68,8 @@ margin: 1rem auto;
   margin: 5rem auto;
   padding: 0.5rem;
   border-radius: 12px;
-  background-color: rgba(184, 208, 248, 0.8)
+  background-color: rgba(225, 225, 225, 0.8);
+  
 }
 
 .bold {
@@ -84,5 +85,6 @@ margin: 1rem auto;
   padding: .7rem 1.5rem;
   font-size: 1.2rem;
   border-radius: 25px;
-  border: 1px solid rgba(184, 208, 248, 0.8)
+  border: 1px solid rgba(184, 208, 248, 0.8);
+  background: rgba(225, 225, 225, 0.8)
 }
