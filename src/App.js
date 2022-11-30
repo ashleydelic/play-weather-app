@@ -1,9 +1,5 @@
 import React, {useState} from 'react';
-import axios from 'axios';
-
-
-
-
+import './index.css'
 function App() {
 
   const apiKey = '9384c66feb1bae1fbcdcb63411c94cf7';
@@ -23,14 +19,9 @@ function App() {
 
     }
   }
-  
- 
-
- 
 
   return (
-    <div className="app">
-      <div className='search'>
+    <div className="container">
         <input
         placeholder='Enter location'
         onChange={e => setCity(e.target.value)}
@@ -46,39 +37,13 @@ function App() {
           <div>
             <p>{weatherData.name}</p>
             <p>{Math.round(weatherData.main.temp)}°F</p>
-            <p>{weatherData.weather.main}</p>
+            <p>{weatherData.weather[0].main}</p>
             </div>
         )
         }
-      </div>
-      <div className='container'>
-        <div className='top'>
-          <div className='location'>
-            <p>Lexington</p>
-          </div>
-          
-          <div className='description'>
-            <p>Cloudy ☁️, outdoor fun and possibly indoor fun!</p>
-          </div>
-        </div>
-        <div className='bottom'>
-          <div className='feels'>
-            <p className='bold'>59°F</p>
-            <p>Feels like</p>
-          </div>
-          <div className='humidity'>
-            <p className='bold'>57%</p>
-            <p>Humidity</p>
-          </div>
-          <div className='wind'>
-            <p className='bold'>14 mph</p>
-            <p>Winds</p>
-          </div>
 
         </div>
-      </div>
-   
-    </div>
+        
   );
 }
 
