@@ -32,6 +32,9 @@ function App() {
       <div className='search'>
         <input
         placeholder='Enter location'
+        onChange={e => setCity(e.target.value)}
+        value={city}
+        onKeyPress={getWeather}
         type="text"/>
       </div>
       <div className='container'>
