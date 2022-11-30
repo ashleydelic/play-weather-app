@@ -17,6 +17,7 @@ function App() {
       ).then(
         data => {
           setWeatherData(data)
+          setCity("")
         }
       )
 
