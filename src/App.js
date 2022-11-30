@@ -3,20 +3,11 @@ import axios from 'axios';
 
 function App() {
 
-  const [data, setData] = useState({});
-  const [location, setLocation] = useState('');
+  c
   
-  const url = 'https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=5bc10b7aed41cf1f5c7aa583cd837f33';
+  const url = 'https://api.openweathermap.org/data/2.5/weather?q=${}&appid=5bc10b7aed41cf1f5c7aa583cd837f33';
 
-  const searchLocation = (event) => {
-
-    if (event.key === 'Enter') {
-    axios.get(url).then((response) => {
-      setData(response.data);
-      console.log(response.data)
-    })
-  }
-  }
+ 
 
   return (
     <div className="app">
@@ -27,6 +18,11 @@ function App() {
         placeholder='Enter location'
         onKeyPress={searchLocation}
         type="text"/>
+        <input 
+        value='submit'
+        type='Submit'
+        
+        
       </div>
       <div className='container'>
         <div className='top'>
