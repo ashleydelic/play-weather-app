@@ -31,7 +31,7 @@ function App() {
 
         {typeof weatherData.main === 'undefined' ? (
             <div>
-              <p>Welcome to the playtime weather app! Enter your city to see the weather.</p>
+              <p className='intro-msg'>Welcome to the playtime weather app! Enter your city to see the weather.</p>
             </div>
           ): (
           <div className='weather-data'>
