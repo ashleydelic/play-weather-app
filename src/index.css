@@ -5,6 +5,8 @@
   src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
 }
 
+
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -58,4 +60,14 @@ html {
   font-weight: 300;
   font-family: 'Rocher';
 
+}
+
+.temp {
+  font-size: 80px;
+  padding: 10px;
+  border: 1px solid gainsboro;
+  border-radius: 12px;
+  background-color: #000;
+  color: #fff;
+  opacity: .5;
 }
