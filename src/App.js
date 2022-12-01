@@ -9,7 +9,7 @@ function App() {
   const getWeather = (event) => {
     if (event.key === "Enter") {
       fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&APPID=${apiKey}`).then(
-        response => response.json
+        response => response.json()
       ).then(
         data => {
           setWeatherData(data)
@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="container">
         <input className='input'
-        placeholder='Enter city...'
+        placeholder='Enter City...'
         onChange={e => setCity(e.target.value)}
         value={city}
         onKeyPress={getWeather}
