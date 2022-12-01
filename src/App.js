@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div className="container">
-        <input
+        <input className='input'
         placeholder='Enter location'
         onChange={e => setCity(e.target.value)}
         value={city}

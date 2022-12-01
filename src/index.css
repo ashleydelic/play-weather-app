@@ -1,11 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Outfit");
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 
 body {
   font-family: "Outfit","Segoe UI", "Roboto", "Oxygen",
@@ -13,4 +7,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  display: flex;
+  padding: 25px;
+}
+
+.input {
+  padding: 10px;
+  width: 20%;
+  margin: auto;
+  border: 1px solid rgba(165, 134, 249, 0.8);
+  border-radius: 25px;
+  font-size: 20px;
 }
