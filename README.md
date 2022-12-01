@@ -1,3 +1,12 @@
+# Demo Overview
+
+This is a kids weather app, built with React and CSS using the OpenWeatherMap API. The kid can input their local town's name and it will return whether its a good day to play outside or its best to have indoor fun instead.
+
+Possible actions:
+• Get realtime weather location.
+• Realtime weather temperature in farenheits.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
