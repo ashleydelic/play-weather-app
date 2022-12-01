@@ -77,9 +77,10 @@ html {
   padding: 5px;
   border: 1px solid gainsboro;
   border-radius: 12px;
-  background-color: #000;
+  background-color: lightgray;
   color: #fff;
-  opacity: .5;
+  margin-top: 1rem;
+  font-family: 'Rocher';
 }
 
 .intro-msg {
