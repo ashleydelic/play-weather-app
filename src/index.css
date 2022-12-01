@@ -71,3 +71,13 @@ html {
   color: #fff;
   opacity: .5;
 }
+
+.weather {
+  font-size: 30px;
+  padding: 5px;
+  border: 1px solid gainsboro;
+  border-radius: 12px;
+  background-color: #000;
+  color: #fff;
+  opacity: .5;
+}
