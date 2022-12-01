@@ -33,6 +33,7 @@ function App() {
             <div>
               <p className='intro-msg'>Welcome to the playtime weather app! Enter your city to see the weather. <br></br>
               Clear ☀️🌤 : Outdoor play <br></br>
+              Clouds ☁️ : Outdoor, and possibly indoor play <br></br>
               Rain 🌧⛈ : Indoor play <br></br>
               Wind 🌬 : Outdoor, and possibly indoor play<br></br>
               Storm ⛈ : Indoor play <br></br> 

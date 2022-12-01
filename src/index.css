@@ -88,3 +88,8 @@ html {
   font-family: 'Rocher';
   text-align: center;
 }
+
+.city-error {
+  font-size: 40px;
+  color: red;
+}
