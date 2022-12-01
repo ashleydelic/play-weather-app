@@ -47,6 +47,13 @@ function App() {
         )
         }
 
+        {weatherData.cod === "404" ? (
+          <p className='city-error'>City not found.</p>
+        ) : (
+          <></>
+        )
+        }
+
         </div>
         
   );
