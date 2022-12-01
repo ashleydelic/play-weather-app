@@ -81,3 +81,10 @@ html {
   color: #fff;
   opacity: .5;
 }
+
+.intro-msg {
+  font-size: 40px;
+  font-weight: 200;
+  font-family: 'Rocher';
+  text-align: center;
+}
